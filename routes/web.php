@@ -18,13 +18,16 @@ Route ::prefix('imoveis')->group(function(){
         return view('inicio.welcome');
     });
     Route::get('/list-imoveis', [App\Http\Controllers\AlugueisController::class, 'list_imovel']);
-    Route::get('/cadastro-imoveis', [App\Http\Controllers\AlugueisController::class, 'add_imoveis']);
 });
 
 Route ::prefix('inquilinos')->group(function(){
 
     Route::get('/list-inquilinos', [App\Http\Controllers\AlugueisController::class, 'list_inquilinos']);
-    Route::get('/cadastro-inquilinos', [App\Http\Controllers\AlugueisController::class, 'add_inquilinos']);
+});
+
+Route ::prefix('/aluguel')->group(function(){
+
+    Route::get('/', [App\Http\Controllers\AlugueisController::class, 'list_alugueis']);
 });
 
 Route::fallback(function(){

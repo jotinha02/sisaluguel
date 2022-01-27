@@ -32,7 +32,7 @@ services:
         image: mysql:5.7.22
         restart: unless-stopped
         environment: 
-            MYSQL_DATABASE: 'nome_do_bd'
+            MYSQL_DATABASE: 'aluguel'
             MYSQL_ROOT_PASSWORD: 'root'
             MYSQL_PASSWORD: 'root'
             MYSQL_USER: 'root'

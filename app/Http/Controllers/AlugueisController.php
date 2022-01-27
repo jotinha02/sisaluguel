@@ -9,7 +9,7 @@ class AlugueisController extends Controller
 {
     public function list_alugueis() {
       
-        return view('inquilinos.list-inquilinos');
+        return view('list-alugados.alugueis');
     }
 
     public function list_imovel() {
@@ -17,18 +17,9 @@ class AlugueisController extends Controller
         return view('imoveis.imoveis');
     }
 
-    public function add_imoveis() {
-       
-        return view('imoveis.cadastro-imoveis');
-    }
-
     public function list_inquilinos() {
        
         return view('inquilinos.list-inquilinos');
     }
 
-    public function add_inquilinos() {
-       
-        return view('inquilinos.cadastro-inquilino');
-    }
 }

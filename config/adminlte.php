@@ -248,7 +248,7 @@ return [
         ],
         [
             'text'        => 'Dashboard',
-            'url'         => '/aluguel',
+            'url'         => '/',
             'icon'        => 'fas fa-fw fa-home',
             'icon_color' => 'purple',
         ],
@@ -256,7 +256,7 @@ return [
 
         [
             'text' => 'Alugueis',
-            'url'  => '/aluguel/inquilinos',
+            'url'  => '/aluguel',
             'icon' => 'fas fa-fw fa-tasks',
             'icon_color' => 'info',
         ],

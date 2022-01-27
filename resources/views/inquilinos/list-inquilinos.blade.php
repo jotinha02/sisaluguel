@@ -70,7 +70,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">    
                                             <label>CPF:</label>
-                                            <input type="text" class='form-control' required name="add-cpf" id="add-cpf" placeholder="Informe o CPF do inquilino">
+                                            <input type="text" class='form-control cpf' required name="add-cpf" id="add-cpf" placeholder="Informe o CPF do inquilino">
                                         </div>
                                     </div>
                                 </div>                                                             
@@ -79,7 +79,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">   
                                             <label>Telefone:</label>
-                                            <input type="text" class='form-control' required name="add-telefone" id="add-telefone" placeholder="Informe o telefone do inquilino">
+                                            <input type="text" class='form-control phone' required name="add-telefone" id="add-telefone" placeholder="Informe o telefone do inquilino">
                                         </div>
                                     </div>
 
