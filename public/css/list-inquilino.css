@@ -1,9 +1,14 @@
 .add-inquilino{
-   font-size: 13px;
+    font-size: 13px;
     border-radius: 2rem;
 }
 
 #btnFormFiltro{
     border-radius: 2rem;
-    
+    /* margin-left: 500px; */
+}
+
+#filter{
+    border-radius: 2rem;
+    padding: 4px;
 }

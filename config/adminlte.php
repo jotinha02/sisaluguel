@@ -263,14 +263,14 @@ return [
 
         [
             'text' => 'Imóveis',
-            'url'  => '/imoveis/list-imoveis',
+            'url'  => '/imoveis',
             'icon' => 'fas fa-fw fa-warehouse',
             'icon_color' => 'yellow',
         ],
        
         [
             'text' => 'Inquilinos',
-            'url'  => '/inquilinos/list-inquilinos',
+            'url'  => '/inquilinos',
             'icon' => 'fas fa-fw fa-user',
             'icon_color' => 'green',
         ],
